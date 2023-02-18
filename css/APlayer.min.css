@@ -1,0 +1,35 @@
+.aplayer.aplayer-fixed {
+    position: fixed;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 99;
+    overflow: visible;
+    max-width: 400px;
+    box-shadow: none
+}
+
+.aplayer.aplayer-fixed .aplayer-body {
+    position: fixed;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 99;
+    background: #fff;
+    padding-right: 18px;
+    transition: all .3s ease;
+    max-width: 400px
+}
+
+.aplayer.aplayer-fixed .aplayer-info {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    transition: all .3s ease;
+    bottom: 300px;
+    border-bottom: none;
+    border-top: 1px solid #e9e9e9
+}
